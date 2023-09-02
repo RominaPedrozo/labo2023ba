@@ -122,10 +122,10 @@ cat(
 
 # itero por los loops anidados para cada hiperparametro
 
-for (vmax_depth in c(4, 6, 8, 10, 12, 14)) {
-  for (vmin_split in c(1000, 800, 400, 200, 100, 50)) {
-    for (vcp in c(-0.5, -0.03, 0)) {
-      for (vmin_bucket in c(500, 400, 200, 100, 40, 20)) {   
+for (vmax_depth in c(4, 6, 8, 10, 14)) {
+  for (vmin_split in c(1000, 800, 400, 100, 50)) {
+    for (vcp in c(-0.5, -0.03)) {
+      for (vmin_bucket in c(500, 400, 200, 40, 20)) {   
     # notar como se agrega
 
     # vminsplit  minima cantidad de registros en un nodo para hacer el split
