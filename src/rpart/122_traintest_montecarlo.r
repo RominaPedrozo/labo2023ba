@@ -29,7 +29,7 @@ particionar <- function(data, division, agrupa = "", campo = "fold", start = 1, 
 #------------------------------------------------------------------------------
 
 ArbolEstimarGanancia <- function(semilla, param_basicos) {
-  # particiono estratificadamente el dataset
+# particiono estratificadamente el dataset
   particionar(dataset, division = c(7, 3), agrupa = "clase_ternaria", seed = semilla)
 
   # genero el modelo
