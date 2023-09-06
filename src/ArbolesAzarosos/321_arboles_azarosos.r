@@ -11,7 +11,7 @@ require("rpart")
 
 # parmatros experimento
 PARAM <- list()
-PARAM$experimento <- 3211
+PARAM$experimento <- 3212
 
 # Establezco la semilla aleatoria, cambiar por SU primer semilla
 PARAM$semilla <- 111422
@@ -99,7 +99,7 @@ for (arbolito in 1:PARAM$num_trees_max) {
 
   if (arbolito %in% grabar) {
     # Genero la entrega para Kaggle
-    umbral_corte <- (1 / 40) * arbolito
+    umbral_corte <- (5 / 40) * arbolito
     entrega <- as.data.table(list(
       "numero_de_cliente" = dapply[, numero_de_cliente],
       "Predicted" = as.numeric(dapply[, prob_acumulada] > umbral_corte)
