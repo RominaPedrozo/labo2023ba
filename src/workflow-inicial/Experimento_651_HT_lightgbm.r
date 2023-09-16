@@ -27,9 +27,9 @@ options(error = function() {
 
 # Parametros del script
 PARAM <- list()
-PARAM$experimento <- "HT6510"
+PARAM$experimento <- "HT6511"
 
-PARAM$exp_input <- "TS6410"
+PARAM$exp_input <- "TS6411"
 
 # En caso que se haga cross validation, se usa esta cantidad de folds
 PARAM$lgb_crossvalidation_folds <- 5
@@ -80,9 +80,9 @@ PARAM$bo_lgb <- makeParamSet(
   makeIntegerParam("min_data_in_leaf", lower = 100L, upper = 50000L)
   makeIntegerParam("max_depht", lower = 5L, upper = 10L),
   makeNumericParam("bagging_fraction", lower = 0.0, upper = 1.0),
-  makeIntegerParam("num_iterations", lower = 500, upper = 9999)
-  makeIntegerParam("lambda_l1", lower = 0.1, upper = 0.5)
-  makeIntegerParam("lambda_l2", lower = 0.1, upper = 0.5)
+  makeIntegerParam("num_iterations", lower = 500, upper = 9999)
+  makeIntegerParam("lambda_l1", lower = 0.1,upper = 0.5)
+  makeIntegerParam("lambda_l2", lower = 0.1, upper = 0.5)
   makeIntegerParam("bagging_freq", lower = 0L, upper = 3L)
   makeIntegerParam("min_gain_to_split", lower = 0L, upper = 5L)
   makeIntegerParam("min_data_in_bin", lower = 1L, upper = 5L)
@@ -90,7 +90,7 @@ PARAM$bo_lgb <- makeParamSet(
 
 
 # si usted es ambicioso, y tiene paciencia, podria subir este valor a 100
-PARAM$bo_iteraciones <- 10 # iteraciones de la Optimizacion Bayesiana
+PARAM$bo_iteraciones <- 60 # iteraciones de la Optimizacion Bayesiana
 
 PARAM$home <- "~/buckets/b1/"
 
