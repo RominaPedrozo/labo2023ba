@@ -85,7 +85,7 @@ PARAM$bo_lgb <- makeParamSet(
   makeIntegerParam("lambda_l2", lower = 1L, upper = 1000L),
   makeIntegerParam("bagging_freq", lower = 0L, upper = 3L),
   makeIntegerParam("min_gain_to_split", lower = 0L, upper = 5L),
-  makeIntegerParam("min_data_in_bin", lower = 1L, upper = 5L)
+  makeIntegerParam("early_stopping_round", lower = 0L, upper = 50L)
 )
 
 
