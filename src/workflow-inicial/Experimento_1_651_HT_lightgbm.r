@@ -77,15 +77,15 @@ PARAM$bo_lgb <- makeParamSet(
   makeNumericParam("learning_rate", lower = 0.02, upper = 0.3),
   makeNumericParam("feature_fraction", lower = 0.01, upper = 1.0),
   makeIntegerParam("num_leaves", lower = 8L, upper = 1024L),
-  makeIntegerParam("min_data_in_leaf", lower = 100L, upper = 50000L),
-  makeIntegerParam("max_depht", lower = 5L, upper = 10L),
+  makeIntegerParam("min_data_in_leaf", lower = 50L, upper = 50000L),
+  makeIntegerParam("max_depht", lower = 5L, upper = 15L),
   makeNumericParam("bagging_fraction", lower = 0.0, upper = 1.0),
   makeIntegerParam("num_iterations", lower = 500, upper = 9999),
-  makeIntegerParam("lambda_l1", lower = 1L, upper = 1000L),
-  makeIntegerParam("lambda_l2", lower = 1L, upper = 1000L),
+  makeIntegerParam("lambda_l1", lower = 1L, upper = 800L),
+  makeIntegerParam("lambda_l2", lower = 1L, upper = 800L),
   makeIntegerParam("bagging_freq", lower = 0L, upper = 3L),
-  makeIntegerParam("min_gain_to_split", lower = 0L, upper = 5L),
-  makeIntegerParam("min_sum_hessian_in_leaf", lower = 0L, upper = 50L)
+  makeIntegerParam("min_gain_to_split", lower = 0L, upper = 10L),
+  makeIntegerParam("min_sum_hessian_in_leaf", lower = 0L, upper = 100L)
 )
 
 
