@@ -16,5 +16,5 @@ source("~/labo2023ba/src/workflow-inicial/Exp_FINAL_631_FE_historia.r")
 source("~/labo2023ba/src/workflow-inicial/Exp_FINAL_641_TS_training_strategy.r")
 
 # ultimos pasos, muy lentos
-source("~/labo2023ba/src/workflow-inicial/Exp_FINAL_1_651_HT_lightgbm.r")
-source("~/labo2023ba/src/workflow-inicial/Exp_FINAL_1_661_ZZ_final.r")
+source("~/labo2023ba/src/workflow-inicial/Exp_FINAL_651_HT_lightgbm.r")
+source("~/labo2023ba/src/workflow-inicial/Exp_FINAL_661_ZZ_final.r")
