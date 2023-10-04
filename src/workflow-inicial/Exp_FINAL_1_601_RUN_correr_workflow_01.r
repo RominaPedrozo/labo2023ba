@@ -13,7 +13,7 @@ options(error = function() {
 source("~/labo2023ba/src/workflow-inicial/Exp_original_611_CA_reparar_dataset_01.r")
 source("~/labo2023ba/src/workflow-inicial/Exp2_final_grupoA_621_DR_corregir_drifting.r")
 source("~/labo2023ba/src/workflow-inicial/Exp_FINAL_631_FE_historia.r")
-source("~/labo2023ba/src/workflow-inicial/Exp_FINAL_641_TS_training_strategy.r")
+source("~/labo2023ba/src/workflow-inicial/Exp_FINAL_1_641_TS_training_strategy.r")
 
 # ultimos pasos, muy lentos
 source("~/labo2023ba/src/workflow-inicial/Exp_FINAL_1_651_HT_lightgbm.r")
