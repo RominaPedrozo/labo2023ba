@@ -17,4 +17,4 @@ source("~/labo2023ba/src/workflow-inicial/Experimento_FINAL_3_641_TS_training_st
 
 # ultimos pasos, muy lentos
 source("~/labo2023ba/src/workflow-inicial/Experimento_FINAL_3_651_HT_lightgbm.r")
-source("~/labo2023ba/src/workflow-inicial/Exp_FINAL_2_661_ZZ_final.r")
+source("~/labo2023ba/src/workflow-inicial/Experimento_FINAL_3_661_ZZ_final.r")
