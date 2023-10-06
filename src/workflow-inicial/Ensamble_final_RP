@@ -11,7 +11,7 @@ envios <- 10000
 lista_dataframes <- list()
 
 # Nombres de las carpetas
-nombres_carpetas <- c("ZZ6610","ZZ6611","ZZ6613","ZZ6614","ZZ6615","ZZ6617","ZZ6619","ZZ6610","ZZ661111", "ZZ661112")
+nombres_carpetas <- c("ZZ6615","ZZ6627","ZZ6628","ZZ6617","ZZ6621","ZZ6617","ZZ6611")
 
 # Iterar sobre las carpetas y archivos
 for (nombre_carpeta in nombres_carpetas) {
